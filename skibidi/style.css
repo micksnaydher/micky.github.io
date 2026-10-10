@@ -1,0 +1,41 @@
+body {
+      margin: 0;
+      background: #f1d2f0;
+      color: white;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    #cuori {
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .cuore {
+      position: absolute;
+      top: -40px;
+      color: #ff4d88;
+      animation: caduta linear infinite;
+    }
+
+    @keyframes caduta {
+      from {
+        transform: translateY(-40px) rotate(0deg);
+      }
+      to {
+        transform: translateY(110vh) rotate(360deg);
+      }
+    }
+
+    .contenuto {
+     position: relative;
+     color: #eb9db7;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+    -webkit-text-stroke: 2px #faf9f9;
+    }
