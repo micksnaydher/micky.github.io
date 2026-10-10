@@ -1,1 +1,18 @@
-# micky.github.io
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div id="cuori"></div>
+
+  <div class="contenuto">
+    <h1>MI NOVIA</h1>
+  </div>
+</body>
+</html>
